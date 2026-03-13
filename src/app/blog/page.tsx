@@ -2,7 +2,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-// 1. Data Definitions (Must be inside this file)
+
 interface BlogPost {
   id: string;
   category: string;
@@ -64,7 +64,7 @@ export default function BlogPage() {
     <div className="min-h-screen bg-white">
       <Header />
       
-      {/* Responsive Padding: py-12 on mobile, py-20 on desktop */}
+      
       <main className="py-12 md:py-20 bg-[#fafafa]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           
@@ -79,7 +79,7 @@ export default function BlogPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            {/* Featured Post - Responsive Flex (Col on mobile, Row on desktop) */}
+           
             <Link href={featured.href} className="group md:col-span-3 flex flex-col md:flex-row bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm transition-all hover:border-blue-500 hover:shadow-xl">
               <div className="w-full md:w-1/2 h-64 md:h-96 overflow-hidden">
                 <img src={featured.image} alt={featured.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -95,7 +95,7 @@ export default function BlogPage() {
               </div>
             </Link>
 
-            {/* Smaller Cards */}
+           
             {others.map((post) => (
               <Link key={post.id} href={post.href} className="group flex flex-col bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm transition-all hover:border-blue-500 hover:shadow-lg">
                 <div className="h-52 md:h-56 overflow-hidden relative">
