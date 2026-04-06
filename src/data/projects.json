@@ -1,0 +1,27 @@
+{
+    "Robots under IEEE RAS": [
+        {
+            "name": "Wheeled Rover",
+            "description": "Team NITS YANTRARNAV, representing NIT Silchar, has qualified for the live demonstration round at the ISRO Robotics Challenge-URSC 2024 (IROC-U2024) and entered the semi-finals!",
+            "image": ""
+        },
+        {
+            "name": "Poser",
+            "description": "Robot that can mimic human emotions and human posture",
+            "image": ""
+        },
+        {
+            "name": "6-Axis Robotic Manipulator",
+            "description": "Has 6 degrees of freedom → 3 for position (X, Y, Z) + 3 for orientation (roll, pitch, yaw). Structure: base, shoulder, elbow, wrist, end-effector. High flexibility – mimics human arm movements.",
+            "image": ""
+        }
+    ],
+    "Published projects": [
+        {
+            "name": "A review of advances in large language and vision models for robotic manipulation: Techniques, integrations, and challenges",
+            "description": "Recent transformer-based models are improving robotic manipulation by enhancing planning, decision-making, and adaptability. This review highlights their integration with control systems, key benefits, challenges, and future research directions.",
+            "link": "https://link.springer.com/article/10.1007/s42979-025-04119-6",
+            "authors": "Sajjad Hussain, Shwetangshu Biswas, Amandip Dutta, Md Saad, Almas Baimagambetov, Khizer Saeed & Nikolaos Polatidis"
+        }
+    ]
+}

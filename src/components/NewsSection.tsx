@@ -13,7 +13,9 @@ export default function NewsSection() {
         <div className="mb-10 flex flex-wrap items-center justify-between gap-4">
           <h2 className="text-2xl font-bold text-gray-900">Latest News</h2>
           <Link
-            href="#"
+            href="https://www.ieee-ras.org/about-ras/latest-news/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-[var(--ras-blue)] px-4 py-2 text-sm font-medium text-[var(--ras-blue)] no-underline hover:bg-[var(--ras-blue)] hover:text-white"
           >
             All News
