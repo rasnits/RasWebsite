@@ -4,11 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 /* ── Animated counter hook ─────────────────────────────── */
-function useCountUp(
-  end: number,
-  duration = 2000,
-  start = false,
-) {
+function useCountUp(end: number, duration = 2000, start = false) {
   const [value, setValue] = useState(0);
   const rafRef = useRef<number | null>(null);
 
@@ -92,12 +88,9 @@ export default function Hero() {
   }, []);
 
   /* intersection observer for stats */
-  const observerCb = useCallback(
-    (entries: IntersectionObserverEntry[]) => {
-      if (entries[0]?.isIntersecting) setStatsVisible(true);
-    },
-    [],
-  );
+  const observerCb = useCallback((entries: IntersectionObserverEntry[]) => {
+    if (entries[0]?.isIntersecting) setStatsVisible(true);
+  }, []);
 
   useEffect(() => {
     const el = statsRef.current;
@@ -143,14 +136,14 @@ export default function Hero() {
         }}
       >
         <p
-          className="text-xs font-semibold uppercase tracking-[0.25em] text-[#c9a84c] sm:text-sm transition-all duration-700 delay-200"
-          style={{
-            opacity: contentVisible ? 1 : 0,
-            transform: contentVisible ? "translateY(0)" : "translateY(15px)",
-          }}
-        >
-          IEEE Robotics and Automation Society
-        </p>
+  className="text-xs font-semibold uppercase tracking-[0.25em] text-[#9ecbff] sm:text-sm transition-all duration-700 delay-200 drop-shadow-md"
+  style={{
+    opacity: contentVisible ? 1 : 0,
+    transform: contentVisible ? "translateY(0)" : "translateY(15px)",
+  }}
+>
+  IEEE Robotics and Automation Society
+</p>
 
         <h1
           className="mt-6 text-2xl font-bold leading-tight text-white sm:text-3xl md:text-5xl lg:text-[3.25rem] lg:leading-[1.15] transition-all duration-700 delay-400 drop-shadow-lg"
