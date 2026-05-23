@@ -33,17 +33,7 @@
                 "email": "bisalprasad2003@gmail.com" }
         },
         
-        {
-            "name": "Tahmid Choudhury",
-            "role": "Treasurer",
-            "image": "/images/members/treasurer.jpg",
-            "socials": {
-                "github": "https://github.com/Tahmid019",
-                "linkedin": "https://linkedin.com/in/tahmid019/",
-                "facebook": "",
-                "email": "tahmidchoudhury019@gmail.com"
-            }
-        },
+      
 
         {
             "name": "Ranveer Bhura",
@@ -54,6 +44,17 @@
                 "linkedin": "https://www.linkedin.com/in/ranveer-bhura-a9705023b/", 
                 "facebook": "#",
                 "email": "ranveer_ug_24@mech.nits.ac.in" }
+        },
+          {
+            "name": "Tahmid Choudhury",
+            "role": "Treasurer",
+            "image": "/images/members/treasurer.jpg",
+            "socials": {
+                "github": "https://github.com/Tahmid019",
+                "linkedin": "https://linkedin.com/in/tahmid019/",
+                "facebook": "",
+                "email": "tahmidchoudhury019@gmail.com"
+            }
         },
 
         {
