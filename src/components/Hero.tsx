@@ -163,12 +163,14 @@ export default function Hero() {
             transform: contentVisible ? "translateY(0)" : "translateY(20px)",
           }}
         >
-          <Link
-            href="#"
-            className="rounded-full bg-white px-8 py-3 text-sm font-semibold text-[#7a1b2e] no-underline shadow-lg transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-xl"
-          >
-            Become a RAS Member
-          </Link>
+         <Link
+        href="https://www.ieee-ras.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full bg-white px-8 py-3 text-sm font-semibold text-[#7a1b2e] no-underline shadow-lg transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-xl"
+      >
+        Become a RAS Member
+      </Link>
           <Link
             href="/about"
             className="rounded-full border-2 border-white px-8 py-3 text-sm font-semibold text-white no-underline transition-all duration-300 hover:bg-white/10 hover:scale-105"
