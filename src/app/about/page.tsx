@@ -276,7 +276,7 @@ export default function AboutPage() {
 
             <motion.div
               {...fadeIn}
-              className="group flex flex-col md:flex-row md:items-center gap-6 p-10 rounded-xl bg-white/5 backdrop-blur-sm border-l-4 border-[#00629B]/30 hover:border-[#00629B] transition-all shadow-xl"
+              className="group flex flex-col md:flex-row md:items-center gap-6 p-10 rounded-xl bg-white/5 backdrop-blur-sm border-l-4 border-[#00629B]/30 hover:border-[#98c3dd] transition-all shadow-xl"
             >
               <div className="min-w-[280px]">
                 <span className="text-[10px] font-mono font-bold uppercase tracking-[0.3em] text-[#00629B] block mb-1">Executive</span>
@@ -285,15 +285,16 @@ export default function AboutPage() {
               <div className="flex-1 border-l border-white/10 pl-0 md:pl-6 space-y-6">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-1">
-                    <span className="text-gray-400 font-mono text-xs uppercase tracking-widest block">Chairman</span>
-                    <span className="text-white text-xl font-black uppercase tracking-tight">Bisal Prasad</span>
-                    <span className="text-[#00629B] text-xs font-bold block uppercase tracking-tighter">IEEE Silchar Subsection</span>
-                  </div>
-                  <div className="space-y-1">
                     <span className="text-gray-400 font-mono text-xs uppercase tracking-widest block">Faculty In-Charge</span>
                     <span className="text-white text-xl font-black uppercase tracking-tight">Dr. Vipin Chandra Pal</span>
-                    <span className="text-[#00629B] text-xs font-bold block uppercase tracking-tighter">RAS SBC NIT Silchar</span>
+                    <span className="text-[#78bfe8] text-xs font-bold block uppercase tracking-tighter">RAS SBC NIT Silchar</span>
                   </div>
+                  <div className="space-y-1">
+                    <span className="text-gray-400 font-mono text-xs uppercase tracking-widest block">Vice Chair</span>
+                    <span className="text-white text-xl font-black uppercase tracking-tight">Bisal Prasad</span>
+                    <span className="text-[hsl(202,71%,73%)] text-xs font-bold block uppercase tracking-tighter">IEEE Silchar Subsection</span>
+                  </div>
+                  
                 </div>
               </div>
             </motion.div>

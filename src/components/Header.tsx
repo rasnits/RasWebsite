@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
+  FaEnvelope,
   FaBars,
   FaTimes,
 } from "react-icons/fa";
@@ -61,6 +62,9 @@ export default function Header() {
               </a>
               <a href="https://www.youtube.com/@rasieeesilcharsubsection" className="p-2 rounded-full hover:bg-gray-100 transition">
                 <FaYoutube size={18} color="#FF0000" />
+              </a>
+              <a href="mailto:robotics.ieee@nits.ac.in" className="p-2 rounded-full hover:bg-gray-100 transition">
+                <FaEnvelope size={18} className="text-gray-600 hover:text-gray-900" />
               </a>
             </div>
           </div>
@@ -123,6 +127,9 @@ export default function Header() {
           </a>
           <a className="p-2 rounded-full bg-gray-100">
             <FaYoutube size={18} color="#FF0000" />
+          </a>
+          <a href="mailto:robotics.ieee@nits.ac.in" className="p-2 rounded-full bg-gray-100">
+            <FaEnvelope size={18} className="text-gray-600" />
           </a>
         </div>
       </div>

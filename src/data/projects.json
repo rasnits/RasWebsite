@@ -18,10 +18,43 @@
     ],
     "Published projects": [
         {
-            "name": "A review of advances in large language and vision models for robotic manipulation: Techniques, integrations, and challenges",
-            "description": "Recent transformer-based models are improving robotic manipulation by enhancing planning, decision-making, and adaptability. This review highlights their integration with control systems, key benefits, challenges, and future research directions.",
+            "name": "Soft Actor-Critic Based Adaptive PID Control for Energy-Efficient Legged Robot Locomotion",
+            "description": "Formulates legged robot locomotion as a Markov Decision Process (MDP), employing a Soft Actor-Critic (SAC) agent to dynamically tune PID gains in real-time. Simulated on a quadruped robot, the framework achieves a 20-25% reduction in power consumption without compromising trajectory tracking accuracy or gait stability.",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7423017526084812801/",
+            "authors": "11th Indian Control Conference (ICC 2025) at IISc Bengaluru"
+        },
+        {
+            "name": "Advances in Large Language and Vision Models for Robotic Manipulation",
+            "description": "A comprehensive review synthesizing the transformative impact of Large Language Models (LLMs) and Large Vision Models (LVMs) on robotic control systems. Evaluates integration strategies such as multimodal fusion and hierarchical reinforcement learning, while critically addressing current research challenges.",
             "link": "https://link.springer.com/article/10.1007/s42979-025-04119-6",
-            "authors": "Sajjad Hussain, Shwetangshu Biswas, Amandip Dutta, Md Saad, Almas Baimagambetov, Khizer Saeed & Nikolaos Polatidis"
+            "authors": "SN Computer Science (Vol. 6, Article 588, June 2025)"
+        },
+        {
+            "name": "Classification of Bearing Faults from Vibration Data of Induction Motor",
+            "description": "A data-driven study assessing the effectiveness of One-Class Support Vector Machines (SVM) in detecting anomalies and bearing faults from the vibration data of induction motors. Utilizes Grid Search for hyperparameter tuning to accurately classify motor health conditions.",
+            "link": "https://link.springer.com/chapter/10.1007/978-981-95-4161-4_22",
+            "authors": "International Conference on Modeling, Simulation and Optimization (CoMSO 2024)"
+        },
+        {
+            "name": "Design of a Robot Rover with 5 DOF Manipulator for Uneven Terrain",
+            "description": "Research detailing the mechanical and system-level design of a highly capable robotic rover equipped with a 5 Degrees of Freedom (DOF) manipulator. Engineered to adapt to unstructured environments and perform complex physical interactions on uneven terrain.",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=de&user=nnh9eQMAAAAJ&citation_for_view=nnh9eQMAAAAJ:d1gkVwhDpl0C",
+            "authors": "IEEE Conference on Robotics and Automation (ICRA@40), Rotterdam (September 2024)"
+        }
+    ],
+    "IInvenTix Projects": [
+        {
+            "name": "IInvenTix project: A global Showcase project (NEERVAHAN)",
+            "description": "Design and Implementation of a hybrid underwater vehicle manipulator (HUVM) system for cleaning of bio-foulings on a submerged pipeline in a sea. Features Image Processing through YOLOv9 architecture and Motion Planning through Bi-DRRRT* algorithm (Path planning, Obstacle avoidance, Slope-aware based). Developed at MARS LAB, Dept. of EIE, NIT Silchar.",
+            "link": "https://www.linkedin.com/feed/update/urn:li:activity:7453380521209798656/",
+            "pdfPath": "/images/learning/web1.pdf",
+            "authors": "Presented at IInvenTiv-2024"
+        },
+        {
+            "name": "Bio-Inspired Flagellate Based Motion of Underwater Robot",
+            "description": "Design and development of an underwater robot mimicking flagellate motion for efficient, low-disturbance aquatic locomotion. Developed at National Institute of Technology Silchar, Assam.",
+            "pdfPath": "/images/learning/web2.pdf",
+            "authors": "Presented at IInvenTiv-2024"
         }
     ]
 }
